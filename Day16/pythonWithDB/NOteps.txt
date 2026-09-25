@@ -1,0 +1,27 @@
+create database MicroDegree;
+use MicroDegree ;
+create table Employee
+(
+	id int,
+    name varchar(25), 
+    age  int ,
+    salary int,
+    designation varchar(25)
+);
+select * from Employee ;
+insert into employee values(100,"Thanesh",30,70000,"Developer");
+drop table employee ;
+create table Employee
+(
+	id int primary key,			-- it will not allow the duplicate keys 
+    name varchar(25) not null, 	-- it means null na allow madalla (it will not allow the null val : v must have provid some value) 
+    age  int check(age > 18),	-- befor inster the records it will check : it must have to satify the cond then onlt we can insert
+    salary int,
+    designation varchar(25) default 'GET' -- if we not entered any desig by Default will the GET 		-- 
+);
+
+insert into employee values(200,"Thanesh",30,70000,"Developer");
+select * from Employee ;
+delete from employee;
+
+alter table employee add (PAN varchar(10));

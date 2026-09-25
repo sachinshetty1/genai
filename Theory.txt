@@ -1,0 +1,284 @@
+#Operatators
+
+Arithmetic : + , - , / , * ,  
+Comparison  : == , != , > , < , <= , >= 
+LOgical  : and , or , not
+Assignment  : = , += , -= 
+Membership  : in , not in 
+Identity  : is ,, is not 
+
+
+Data Types : 
+        int , float , str , bool , list , set , tuple , dict 
+
+conditions : 
+    if 
+    if ...else 
+    if ... else ... else 
+    nested if 
+
+    Loops : 
+    while 
+    for 
+    break 
+    continue 
+    pass 
+
+
+    ffor i in range(1, 11):
+    #print(i);
+    pass;
+    
+number = 1;
+while number <= 5:
+    print("Number is: ", number);
+    number = number + 1;
+
+
+uname=input("ENter Name : ");
+upass=input("ENter password ");
+if uname=="Thanesh" and upass=="Thanesh@123":
+    print("Login Successfull");
+else :
+    print("Login Failed");
+
+
+--------
+while True:
+    number = int(input("Enter a positive number: "))
+    if number > 0:
+        break;        
+    print("Please enter a positive number.")
+print("Number is  : ", number)      
+-----------------------------------------------------
+OOps 
+Object oriented preprogramming lang 
+	must support :                                            // base to Derived 
+			1 ) Class & Objects                               // super to Sub 
+			2 ) Inheritance     : acquiring the proprty from the// parent to child
+                                : Types of Inheritance : Single, Multilevel , MultiPle , Hrihcical , Hybrid 
+			3 ) Polymorphism    : one method multiple behiviour 
+			4 ) Abstraction     : hinding the implementation  ? How  ? Why ? When ? where  ? 
+			5 ) Exculpation     : hinding the data Members 
+
+C prog : will it support  ? no it will not support ? this is not Oops ...! POPL/SOPL
+C++ / java / Python / csharp/ typescript /.....! yes it will oops ...!
+
+Advantage  !
+		1 ) code Reusability 
+		2 ) hide implementation using abstract 
+		3 ) easy to Maintenance ( loosely cooling )
+		4 ) Modularity  : large app are div ibto smaller manageable folders 
+		5 ) Scalabelety : easy to add new Features without affcting existing code / functinlity
+		6 ) improved more security 
+		7 ) easy to test 
+
+
+
+-------------------- 
+Class name  : BankAccount
+Object 	    : account1 , account2
+proprties   : account_num, balance
+Methods	    : deposit(), withdraw(), checkbalace();
+
+
+class Bank
+{
+
+}
+
+
+
+
+
+=========================
+Difference Between Constructor and Method in Python
+Constructor							Method
+A constructor initializes an object.			A method performs an operation using the object.
+Constructor name is always __init__().			A method can have any valid name.
+It is called automatically when an object is created.	It must be called explicitly using the object.
+It normally initializes instance properties.		It normally reads or modifies properties.
+Usually runs once during object creation.		Can be called multiple times.
+It does not return a value explicitly.			It can return a value.
+
+
+Python will support both Function oriented and object oreinted ....!
+
+
+
+
+
+
+Basics  : Loops / conditions / jumping statements(break , return , pass )
+Operators, Arithmetic , Logical(and or not ) , conditional , 
+Data Types 
+Oops : 
+        Class & Object
+        Inheritance	:aquring the property from parent  to child / super to sub class / base class derived class 
+				single level ,
+				multilevel 
+				Multiple 
+				Hybrid 
+				Hierarchical 
+        Polymorphism ,  : over riding , (same method name , same parameter but i can be diff implementation ) 
+        Abstraction     : hiding the implementation , 
+				import abstract 
+				@abstractmethod : so this will hide the implementation 
+					 		and in child class we must have to over ride / provide the implementation
+        Exculpation     : 	handing the data member in single class ? 
+					make all the variable as private ? 
+					use setter / getter 
+Access Modifiers : 
+			Public ,: anywhere we can access : 
+			Private : only for same class 
+			Protected : 
+Non Access Modifiers  : 
+			Static : Without createing a obj we can execute 
+			Final  : we can not over ride  in class 
+			Abstract: hide the implemention in  parent and provide the implementation in child class 
+Exception handling    : handing the run time exceptions 
+			try 
+			expect 
+			finally 
+			raise
+			else  
+Data Types  : LIST ,SET,  Tuple , Dist.
+ 
+
+------------- next Week Plan ---------------------------------------
+Monday+ Tuesday  : SQL ----  ( PYTHON to SQL ) -1 / 2 Day 
+Wed + Threday+ Friday= FASt APIS (WEB + Python FAst API + DB ) 
+----------------------------------------------------------------------
+
+SET / LIST 
+
+
+ arr = , 30 , 30,20 , 100, 50 , 60 , 35 , 80 
+
+sort 
+revers 
+asc 
+desc 
+remove dup 
+
+
+
+List 
+		
+
+
+
+
+
+TDD :
+	tester will give the test cases : 
+No.	Input	Condition tested	Expected output
+1	""	Empty name	Student name cannot be empty.
+2	" "	Only spaces	Student name cannot be empty.
+3	"Ra"	Fewer than 3 characters	Name must contain at least 3 characters.
+4	"R"	Fewer than 3 characters	Name must contain at least 3 characters.
+5	"Rameshwaraa"	More than 10 characters	Name must not contain more than 10 characters.
+6	"Ram Kumar"	Contains a space	Name must contain only letters—no spaces, numbers, or special characters.
+7	"Ram123"	Contains numbers	Name must contain only letters—no spaces, numbers, or special characters.
+8	"Ram@"	Contains special character	Name must contain only letters—no spaces, numbers, or special characters.
+9	"Ram_Dev"	Contains underscore	Name must contain only letters—no spaces, numbers, or special characters.
+10	"Ramesh"	Exact duplicate	Student already exists.
+11	"ramesh"	Case-insensitive duplicate	Student already exists.
+12	"RAMESH"	Case-insensitive duplicate	Student already exists.
+13	"Ram"	Valid minimum length	Student added successfully.
+14	"Abcdefghij"	Valid maximum length	Student added successfully.
+15	"Prakash"	Valid name	Student added successfully.
+16	" Ravi "	Leading/trailing spaces removed	Student added successfully.
+		 
+BDD 
+
+
+
+
+common 100 Question 
+			Insurance Application Management
+		Chat bot-------> GK ----> intelligent 75-80%
+		RAG  
+
+	1 )
+	2 )
+	3 )
+	4 )
+
+
+
+
+
+	100 ) 
+
+
+	
+
+
+	LLM (large Lang Model )
+			is an AI MODEL 
+			and trained on a very large amount of text and code 
+			it undrested your prompt 
+			generate a human like responses  
+			most suitable answers  
+
+
+
+Model Family 	Providers 
+	
+GPT 		openAI 
+
+
+Gemini 		Google
+
+
+Claude 		Antropic 
+
+Llama		meta 
+
+DeepSeek 	DeepSeek
+
+every compent : might have thre onw model 
+			IBM 
+			TCS 
+			WIPRO 
+			Infosys 
+			
+
+			
+			LLM (trillions of data ): internet  --------- public across world 
+			LLM : 
+		 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

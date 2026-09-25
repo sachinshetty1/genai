@@ -1,0 +1,40 @@
+Prompt Engineering 
+    means writing clear and structured instructions so an AI model gives the expected answer.
+
+    Simple formula
+
+    Prompt = Role + Task + Context + Constraints + Output Format = Good Promt
+
+    Act as a Python trainer.
+    Explain FastAPI CRUD operations to beginners using a banking example. Use simple language,
+    include short code snippets, and format the answer step by step.
+
+    Types 
+    1 ) Zeor Shot Prompting.....!
+            Give only the task without examples.
+                 ex : Translate "Hello" to Kannada
+                ex : write a funny excues for coming late to the office 
+                ex  prepare Biriyani : 
+
+
+    2 ) One Shot Prompting :
+                we provide one example so that AI will Undrestand the expected AI : 
+                Apple ---- > Fruit 
+                Potato ---- > veg 
+
+                ex :  i want to buld web applcaitoon as same as amezon 
+    3 ) Few Shot : Give multiple examples to teach the pattern.
+            Cat → Animal
+            Rose → Flower
+            Mango → Fruit
+            Lion → Animal ....!
+
+    4 ) Role  based Prompting
+            Role-based prompting means telling the AI which role or character it should act as before giving the task.
+                    Act as a Java trainer. Explain REST API to beginners using a simple banking application example.
+
+
+
+
+    chat gpt ------------------Developer ------------------------- App lication dev 
+    Chat gpt -----------------promt full app ----------------------Applcation(text --- > zip/ exe )------- Depoye URL ------>

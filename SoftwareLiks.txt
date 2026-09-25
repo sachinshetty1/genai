@@ -1,0 +1,42 @@
+	Software Required ....!
+
+Python latest : 3.11 or 3.12 + 	: App Develop  	: https://www.python.org/downloads/
+Visual Studio code		: IDE 		: https://code.visualstudio.com/download
+Git 				: git-git bash	: https://git-scm.com/install/windows				 
+Postman				: Api testing 	: https://www.postman.com/downloads/
+MySQL or PostgreSQL/		: Data Store 	: https://dev.mysql.com/downloads/mysql/8.0.html
+Node Js				: Front End 	: https://dev.mysql.com/downloads/installer/
+JAVA JDK 			:https://download.oracle.com/java/26/latest/jdk-26_windows-x64_bin.exe (sha256)
+STS / eclipse / IntelliJ
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Thaneshwara848/Python.git
+git push -u origin main
+
+
+
+
+
+
+
+
+
+
+
+
